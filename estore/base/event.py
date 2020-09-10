@@ -7,6 +7,9 @@ def map_dict(callback, data):
     return dict(map(functools.partial(lambda y, x: (x[0], y(x[1])), callback), data.items()))
 
 class Event:
+    """\"Immutable\" Event class
+
+    """
     def __init__(self, name:str, stream:uuid.UUID, version:int, data:dict, headers:dict, created:datetime.datetime=datetime.datetime.now()):
         self.__name = name
         self.__stream = stream
@@ -44,9 +47,3 @@ class Event:
 
     def __repr__(self):
         return f"Event (name: {self.name}, stream: {self.stream}, version: {self.version}, data, headers, created: {self.created})"
-
-
-data = {'one': uuid.uuid4()}
-
-e = Event('Created', uuid.uuid4(), 1, {}, {})
-print(e)
