@@ -9,4 +9,4 @@ setuptools.setup(
     license='BSD',
     zip_safe=False,
     include_package_data=True,
-    packages=setuptools.find_napespace_packages(include=['estore.*']))
+    packages=setuptools.find_namespace_packages(include=['estore.*']))
