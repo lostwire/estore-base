@@ -10,6 +10,7 @@ class Event:
     """\"Immutable\" Event class
 
     """
+    __slots__ = ("__name", "__stream", "__version", "__data", "__headers", "__created")
     def __init__(self, name:str, stream:uuid.UUID, version:int, data:dict, headers:dict, created:datetime.datetime=datetime.datetime.now()):
         self.__name = name
         self.__stream = stream
