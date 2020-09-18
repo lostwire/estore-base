@@ -9,6 +9,7 @@ setuptools.setup(
     description='Event Store Base Classes',
     long_description=long_description,
     long_description_content_type="text/markdown",
+    url="https://github.com/lostwire/estore-common", 
     author='Jnxy',
     author_email='jnxy@lostwire.net',
     classifiers=[
