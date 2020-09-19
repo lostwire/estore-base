@@ -1,3 +1,7 @@
+## Estore base classes
+
+This is a common dependency code for both, estore-client and estore-server
+
 ## Installing
 From PyPi
 
