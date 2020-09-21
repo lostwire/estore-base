@@ -1,5 +1,7 @@
 ## Estore base classes
 
+THIS IS AN EARLY ALPHA
+
 This is a common dependency code for both, estore-client and estore-server.
 
 ## Installing
