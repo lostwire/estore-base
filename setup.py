@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='estore-base',
-    version='0.0.6',
+    version='0.0.7',
     description='Event Store Base Classes',
     long_description=long_description,
     long_description_content_type="text/markdown",
