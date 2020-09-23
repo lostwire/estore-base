@@ -4,6 +4,8 @@ THIS IS AN EARLY ALPHA
 
 This is a common dependency code for both, estore-client and estore-server.
 
+<img src="https://img.shields.io/pypi/v/estore-base" alt="estore-base-pypi-version"/>
+
 ## Installing
 From PyPi
 

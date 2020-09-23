@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='estore-base',
-    version='0.0.7',
+    version='0.0.8',
     description='Event Store Base Classes',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/lostwire/estore-common", 
+    url="https://github.com/lostwire/estore-base", 
     author='Jnxy',
     author_email='jnxy@lostwire.net',
     classifiers=[
