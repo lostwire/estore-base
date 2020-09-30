@@ -14,5 +14,5 @@ From GitHub
 ```bash
 git clone git@github.com:lostwire/estore-base.git
 cd estore-base
-git install .
+pip3 install .
 ```
