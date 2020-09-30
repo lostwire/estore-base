@@ -1,5 +1,7 @@
 ## Estore base classes
 
+This is a common dependency code for both, estore-client and estore-server.
+=======
 THIS IS AN EARLY ALPHA
 
 This is a common dependency code for both, estore-client and estore-server.
@@ -18,5 +20,5 @@ From GitHub
 ```bash
 git clone git@github.com:lostwire/estore-base.git
 cd estore-base
-git install .
+pip3 install .
 ```
